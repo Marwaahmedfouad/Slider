@@ -1,0 +1,28 @@
+body{
+    background-color: cadetblue;
+}
+.container{
+margin: 50px auto; 
+   width: 90%;
+
+}
+#image{
+    width: 70%;
+    margin: 10px auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.buttons{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 20px;    
+}
+button:hover{
+    background-color: rgb(131, 110, 40);
+    color: aliceblue;
+
+}
